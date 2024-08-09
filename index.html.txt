@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumas Learning</title>
+    <link rel="stylesheet" href="estilos_inicio.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Aquí puedes agregar la imagen del logo -->
+            <img src="imagen/Puma.png" alt="Logo de la empresa"> 
+           <!-- <img class="img-profile rounded-circle" src="img/user.png">-->
+            <h4>Pumas learnig</h4>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login_register/registro.php">Registro   </a></li>
+                <li><a href="cursos.php"> Cursos Disponibles</a></li>
+                <li><a href="index.php"> Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="welcome">
+            <h1>Bienvenidos <p>al programa de cursos</p><p>Pumas Learning</p></h1>
+            
+            <p>- Duración: 4 meses</p>
+            <p>- Horarios: Matutino y Nocturno</p>
+        </div>
+        <div class="course-image">
+            <img src="imagen/study.png" alt="Imagen del curso">
+        </div>
+    </main>
+    <main class="main-section">
+    <div class="footer-left">
+            <div class="courses-center">
+            <h2>Cursos</h2>
+            <div class="course-box">
+            <a href="cursos.php" class="course-link">Ver Cursos disponibles</a> 
+            
+        </div>
+    </main>
+    <footer>
+    <div class="footer-left">
+            <h3>Pumas Learning</h3>
+            <p>Somos una plataforma dedicada a la enseñanza, confiando plenamente en el futuro de nuestro gran país.</p>
+        </div>
+        <div class="footer-center">
+            <a href="https://wa.me/tu-numero" target="_blank">
+                <img src="imagen/whasa.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.facebook.com/tu-pagina" target="_blank">
+                <img src="imagen/face.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/tu-usuario" target="_blank">
+                <img src="imagen/insta.png" alt="Instagram">
+            </a>
+            <a href="" target="_blank">
+                <img src="imagen/you.png" alt="YouTube">
+            </a>
+        </div>
+        <div class="footer-right">
+            <p>Contáctenos</p>
+            <p>XXXXXX</p>
+        </div>
+    </footer>
+</body>
+</html>
